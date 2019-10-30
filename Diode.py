@@ -8,8 +8,8 @@ I0 = 10**-9
 n = 2
 
 # Voltage range
-vstart = 0.01
-vstop = 0.9
+vstart = 0.0
+vstop = 0.91
 vstep = 0.01
 
 Vd = np.arange(vstart, vstop, vstep)  # Creates the voltages array
