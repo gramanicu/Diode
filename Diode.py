@@ -25,7 +25,7 @@ def shockley(I0, n, T, Vd):
 ''' We will plot the currents for a range of temperatures
     250, 260, 270, 280, 290, 300 K (Kelvin)
 '''
-temps = np.arange(250, 300, 10)
+temps = np.arange(250, 310, 10)
 
 # Plot the result for each temperature
 for T in temps:
