@@ -11,9 +11,9 @@ Vo = 0.6 # Threshold Voltage for the diode
 t = 0.1        # Time interval (max, in seconds)
 samples = 2000 # Number of samples
 
-time = np.linspace(0, t, samples);
+time = np.linspace(0, t, samples)
 
-V = A * np.sin((2 * f * math.pi) * time);   # Input signal
+V = A * np.sin((2 * f * math.pi) * time)  # Input signal
 
 # Input signal plot
 plt.subplot(2, 1, 1)
