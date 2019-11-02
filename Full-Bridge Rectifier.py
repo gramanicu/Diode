@@ -1,4 +1,4 @@
-# Copyright 2019 Grama Nicolae
+# Copyright 2019 Grama Nicolae & Enache Liviu
 
 import math as math
 import matplotlib.pyplot as plt
